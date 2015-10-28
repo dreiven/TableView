@@ -18,12 +18,20 @@ public class ModeloTabla extends DefaultTableModel{
     
     
     public ModeloTabla() {
-
-    	//Dimensiona la tabla para la presentación inicial
         
-    	this.setColumnCount(4);
-    	this.setRowCount(3);
+    	//Dimensiona la tabla para la presentación inicial
+//        this.setColumnIdentifiers(columnas);
+    	this.setColumnCount(3);
+    	this.setRowCount(4);
+    
        
-    }   
+    }
+    
+    
+    
+    
+    
+    
+    
     
 }
